@@ -4,16 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="portStyle.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0B0B0F;
+        }
+        header {
+            background-color: #101B2D;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            background-color: #22182d;
+        }
+      nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+        h3 {
+            margin: 0;
+            padding: 14px 20px;
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <nav>
+            <ul>
+                <li><h3>Thato Christopher Muleya</h3></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
     <header>
         <div>
                 <h1>About Me</h1>
         </div>
+    </header>
         <main>
             <div>
                 <p>I'm a student at the <i>Vaal University Of Technology</i> studying in information technology,<br> an aspiring <b>Network Engineer</b> and I am currently building my skills in<br> <span>Web Development</span> not to be grounded by one field while i pursue my dream</p>
-                <section Class="skills">
+                <section Class="skills" style="margin-top: 20px; color: white;" background-color: #111;>
                     <h2>My Skills</h2>
                     <ul>
                         <li>HTML</li>
@@ -23,23 +82,22 @@
                         <li>Problem Solving</li>
                     </ul>
                 </section>
+                <section class="Certification" style="margin-top: 20px; color: white;">
+                    <h2>My Certifications</h2>
+                    <ul>
+                        <li>IT Essentials</li>
+                        <li>HTML Fundamentals</li>
+                        <li>CompTIA A+</li>
+                        <li>CompTIA Network+</li>
+                    </ul>
+                </section>
             </div>
             <div>
                 <h2>Connect with Me</h2>
-                <nav><p><a href="https://www.linkedin.com/in/thato-christopher-muleya-97716444a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfU5La4JlQ2GR5r6ohGyfag%3D%3D" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/phozilovesdr3xy?utm_source=qr&dlrf=bHVoZnJ0c2RleGQ0" target="_blank">Instagram</a></p>
+                <nav><p><a href="https://www.linkedin.com/in/thato-christopher-muleya-97716444a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfU5La4JlQ2GR5r6ohGyfag%3D%3D" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/phozilovesdr3xy?utm_source=qr&dlrf=bHVoZnJ0c2RleGQ0" target="_blank">Instagram</a> <br> Email: <a href="mailto:kidddrexy@gmail.com">kidddrexy@gmail.com</a> <br> Contact: <a href="tel:+27724641088">+27 72 464 1088</a></p>
                 </nav>
             </div>
         </main>
-
-            <div>
-                <nav>
-                <p class="nav-links">
-                    <a href = "home.html">Home</a> |
-                    <a href = "about.html">About</a> |
-                    <a href = "projects.html">Projects</a>
-                </p>
-            </nav>
-        </div>
 
          <footer class="footer"><p>Copyright: Thato Christopher Muleya</p></footer>
 </body>
